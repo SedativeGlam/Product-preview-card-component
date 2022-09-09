@@ -33,9 +33,7 @@ img {
 
 .main {
   background-color: white;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px 0 30px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -115,7 +113,7 @@ button {
   }
 
   button {
-    font-size: 10px;
-    padding: 5px 100px 5px 100px;
+    font-size: 14px;
+    padding: 2px 100px 2px 100px;
   }
 }
