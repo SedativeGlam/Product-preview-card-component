@@ -5,9 +5,11 @@
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.5;
   font-family: montserrat;
   font-size: 21px;
   background-color: antiquewhite;
+  color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,11 +35,13 @@ img {
   background-color: white;
   padding-top: 10px;
   padding-left: 30px;
+  padding-right: 30px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 .item-1 {
+  line-height: 1;
   color: black;
   font-family: fraunces;
   font-size: 52px;
@@ -85,7 +89,12 @@ button {
     padding: 20px;
   }
 
+  .image {
+    height: 240px;
+  }
+
   img {
+    object-fit: cover;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0;
   }
